@@ -1,0 +1,16 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: whitesmoke;
+}
+ul {
+    color: indigo;
+}
+h3 {
+    color: rgba(236, 123, 16, 0.897);
+    text-decoration-line: underline;
+}
+div {
+    background-color: bisque;
+}
