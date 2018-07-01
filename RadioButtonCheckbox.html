@@ -10,13 +10,36 @@
 
 <body>
     <h2>Who do you think is the best football player?</h2>
-    <!-- <br> -->
-    <form method="GET">
-        <label>Lionel Messi</label>
-        <input type="radio" name="Messi">
-        <br>
-        <label>Cristiano Ronaldo</label>
-        <input type="radio" name="Ronaldo">
+    <form method="GET" required>
+        <div>
+            <label for="Messi">Lionel Messi</label>
+            <input type="radio" id="Messi" name="playerChoice" value="lionelMessi" required>
+            <br>
+            <label for="Ronaldo">Cristiano Ronaldo</label>
+            <input type="radio" id="Ronaldo" name="playerChoice" value="cristianoRonaldo">
+            <br>
+        </div>
+        <div>
+            <h2>Who's going to win the 2018 FIFA World Cup?</h2>
+            <select id="countrySelect" name="country">
+                <option value="ar">Argentina</option>
+                <option value="be">Belgium</option>
+                <option value="br">Brazil</option>
+                <option value="co">Colombia</option>
+                <option value="cr">Croatia</option>
+                <option value="de">Denmark</option>
+                <option value="en">England</option>
+                <option value="fr">France</option>
+                <option value="jp">Japan</option>
+                <option value="me">México</option>
+                <option value="pr">Portugal</option>
+                <option value="ru">Russia</option>
+                <option value="sp">Spain</option>
+                <option value="sw">Sweden</option>
+                <option value="st">Switzerland</option>
+                <option value="ur">Uruguay</option>
+            </select>
+        </div>
         <br>
         <button>Submit</button>
     </form>
