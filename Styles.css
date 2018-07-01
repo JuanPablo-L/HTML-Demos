@@ -1,17 +1,36 @@
+body {
+    background-image: url(https://images.pexels.com/photos/884454/pexels-photo-884454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=690), 
+                      url(backgrounds-blank-blue-953214.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
-    color: darkblue;
+    color: rgb(0, 0, 139);
     text-align: center;
     text-decoration-line: underline;
-    text-decoration-style: dotted;
+    text-decoration-style: solid;
+    font-family: 'Julius Sans One', sans-serif;
     background-color: whitesmoke;
+    border-color: black;
+    border-style: groove;
 }
-ul {
-    color: indigo;
-}
-h3 {
-    color: rgba(236, 123, 16, 0.897);
-    text-decoration-line: underline;
-}
+
 div {
     background-color: bisque;
+    border: ridge 2px black;
+    /* border-color: black;
+    border-style: ridge; */
+}
+
+h3 {
+    color: rgba(236, 123, 16, 0.897);
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration-line: underline;
+}
+
+ul {
+    color: indigo;
+    font-family: 'Julius Sans One', sans-serif;
 }
