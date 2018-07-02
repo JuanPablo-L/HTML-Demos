@@ -6,6 +6,14 @@ body {
     background-size: cover;
 }
 
+.introduction {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(250, 167, 43, 0.850);
+    margin-bottom: 1%;
+}
+
 h1 {
     color: rgb(0, 0, 139);
     text-align: center;
