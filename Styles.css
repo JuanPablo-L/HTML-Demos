@@ -10,6 +10,7 @@ body {
     text-align: center;
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 4px;
     background-color: rgba(250, 167, 43, 0.850);
     margin-bottom: 1%;
 }
