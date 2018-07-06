@@ -1,0 +1,16 @@
+.box-gray {
+    background-color: rgb(184, 180, 180);
+    width: 40%;
+}
+
+.text-red {
+    color: red;
+}
+
+li {
+    font-family: sans-serif;
+}
+
+.cool-font {
+    font-family: 'Julius Sans One', 'Roboto';
+}
