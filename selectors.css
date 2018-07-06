@@ -7,10 +7,20 @@
     color: red;
 }
 
+.cool-font {
+    font-family: 'Julius Sans One', 'Roboto';
+}
+
 li {
     font-family: sans-serif;
 }
 
-.cool-font {
-    font-family: 'Julius Sans One', 'Roboto';
+a {
+    font-family: 'Roboto';
+    font-weight: bold;
+    /* background-color: rgba(248, 37, 37, 0.514); */
+}
+
+a[href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"] :hover {
+    background-color: rgba(223, 236, 42, 0.795);
 }
