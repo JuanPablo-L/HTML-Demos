@@ -41,5 +41,9 @@ h3 {
 
 ul {
     color: indigo;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hover-color :hover {
+    background-color: chartreuse;
 }
