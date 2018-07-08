@@ -1,0 +1,19 @@
+.title {
+    font-family: 'Lobster', sans-serif;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.background-gray {
+    background-color: rgb(219, 211, 211);
+}
+
+.font-cool {
+    font-family: 'Roboto', 'Julius Sans One', sans-serif;
+}
+
+.font-larger {
+    font-size: larger;
+}
