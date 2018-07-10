@@ -17,3 +17,19 @@
 .font-larger {
     font-size: larger;
 }
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.center {
+    text-align: center;
+}
+
+h2 {
+    text-decoration-line: underline;
+}
+
+span {
+    font-size: 2em;
+}
