@@ -7,6 +7,10 @@ h1 {
 .box-blue {
     border: 2px solid blue;
     width: 450px;
+    height: 100px;
+    padding-top: 80px;
+    /* margin: 20px 0px 0px 200px; */
+    margin: 10px auto;
 }
 
 .text-center {
