@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: 'Lobster Two', 'Julius Sans One', sans-serif;
+}
+
+.box-blue {
+    border: 2px solid blue;
+    width: 450px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p:nth-of-type(2) {
+    font-family: 'Open Sans', 'Julius Sans One', sans-serif;
+    font-weight: 800;
+}
