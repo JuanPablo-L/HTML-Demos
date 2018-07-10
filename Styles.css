@@ -9,7 +9,8 @@ body {
 .introduction {
     text-align: center;
     font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
     border-radius: 4px;
     background-color: rgba(250, 167, 43, 0.850);
     margin-bottom: 1%;
@@ -20,15 +21,17 @@ h1 {
     text-align: center;
     text-decoration-line: underline;
     text-decoration-style: solid;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Lobster Two', 'Julius Sans One', sans-serif;
     background-color: whitesmoke;
     border-color: black;
     border-style: groove;
+    border-radius: 4px;
 }
 
 div {
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.801);
     border: ridge 2px black;
+    border-radius: 4px;
     /* border-color: black;
     border-style: ridge; */
 }
@@ -36,14 +39,21 @@ div {
 h3 {
     color: rgba(236, 123, 16, 0.897);
     font-family: 'Julius Sans One', sans-serif;
+    /* font-weight: 900; */
+    font-size: 1.3em;
     text-decoration-line: underline;
 }
 
 ul {
-    color: indigo;
     font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 700;
 }
 
 .hover-color :hover {
     background-color: chartreuse;
+}
+
+.box-md {
+    width: 50%;
 }
