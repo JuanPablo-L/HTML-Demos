@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+}
+
+table {
+    margin: auto;
+}
+
+.main-board td {
+    height: 100px;
+    width: 100px;
+}
+
+.border-vertical {
+    border-left: 2px solid darkblue;
+    border-right: 2px solid darkblue;
+}
+
+.border-horizontal {
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
