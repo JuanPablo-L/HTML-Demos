@@ -1,0 +1,62 @@
+body {
+    background-image: url(https://images.pexels.com/photos/884454/pexels-photo-884454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=690), url(backgrounds-blank-blue-953214.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(0, 0, 139);
+    background-color: whitesmoke;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    font-family: 'Lobster Two', cursive;
+    border: 3px solid rgb(6, 54, 117);
+    width: 50%;
+    margin: 10px auto;
+}
+
+h3 {
+    color: rgba(236, 123, 16, 0.897);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    text-decoration-line: underline;
+}
+
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: large;
+    font-weight: 700;
+}
+
+div p {
+    text-align: justify;
+    font-weight: 600;
+    margin: 0 5px 0 5px;
+}
+
+/* div ul {
+    border-bottom: 2px solid black;
+    border-bottom-width: 10px;
+} */
+
+.introduction {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.box-md {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.880);
+    border: 8px solid rgb(6, 54, 117);
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hover-color :hover {
+    background-color: chartreuse;
+}
