@@ -5,7 +5,7 @@ body {
     background-size: cover;
 }
 
-h1 {
+.cool-title {
     color: rgb(0, 0, 139);
     background-color: whitesmoke;
     text-align: center;
@@ -17,10 +17,10 @@ h1 {
     margin: 10px auto;
 }
 
-h3 {
-    color: rgba(236, 123, 16, 0.897);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3em;
+.title-small {
+    color: rgba(236, 123, 16, 0.897) !important;
+    font-family: 'Source Sans Pro', sans-serif !important; 
+    font-size: 1.3em !important;
     text-decoration-line: underline;
 }
 
